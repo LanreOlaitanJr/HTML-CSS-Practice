@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@ body {
     background: rgb(75, 74, 74);
     color: #fff;
     height: 100px;
-    border-bottom: 5px solid rgb(230, 64, 3);
+    border-bottom: 3.5px solid rgb(230, 64, 3);
     justify-content: space-around;
     align-items: center;
 }
@@ -42,33 +41,6 @@ span {
     transition: all 0.2s ease-in;
 }
 
-.sec1 {
-    min-height: 70vh;
-    background-image: url(./istockphoto-1304725515-612x612.jpg);
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-h1 {
-    font-size: 70px;
-    text-align: center;
-    color: rgb(230, 64, 3);
-    word-spacing: 10px;
-    padding-top: 180px;
-}
-
-.intro-p {
-    font-size: 20px;
-    color: #fff;
-    line-height: 30px;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
 .news-ltr {
     background: rgb(75, 74, 74);
     display: flex;
@@ -78,7 +50,7 @@ h1 {
 }
 
 .sub-p {
-    font-size: 29px;
+    font-size: 25px;
     color: #fff;
 }
 
@@ -99,35 +71,33 @@ button {
     color: #fff;
 }
 
-.sec2 {
-    padding-left: 30px;
-    padding-right: 30px;
-    min-height: 40vh;
+.main-page {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin-top: 30px;
 }
 
-.sec2 img {
-    height: 100px;
-    width: 90px;
-    padding-bottom: 20px;
+.div1 {
+    color: rgb(75, 74, 74);
+    margin-left: 70px;
 }
 
-h5 {
-    font-weight: bolder;
-    font-size: 20px;
-    padding-bottom: 20px;
+.div2 {
+    background: rgb(75, 74, 74);
+    color: #fff;
+    margin-left: 70px;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    height: 10rem;
 }
 
-p {
-    font-size: 20px;
-}
-
-.img-active {
-    padding-left: 40px;
-    padding-right: 40px;
+.ww-do {
+    background: rgb(75, 74, 74);
+    color: #fff;
+    margin-right: 70px;
+    margin-left: 20px;
+    padding: 18px;
+    height: 10rem;
 }
 
 footer {
@@ -136,6 +106,7 @@ footer {
     height: 80px;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 .fut-p {
